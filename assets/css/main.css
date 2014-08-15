@@ -1,0 +1,17 @@
+@import "//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,800";
+@import "//cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css";
+@import "//cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap-theme.min.css";
+/*
+  import vendor styles & site styles
+*/
+/* open sans */
+/* bootstrap 3.2 */
+/* site styles */
+/*
+  site styles
+*/
+html,
+body {
+  background: red;
+  font: 16px 'Open Sans', sans-serif;
+}
