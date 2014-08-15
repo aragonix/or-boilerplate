@@ -1,44 +1,51 @@
 ﻿<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" class="no-js" data-user-agent="false">
 
-  <title></title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <head>
 
-  <!-- Normalize 3.0.1 -->
-  <link href="css/normalize.css" rel="stylesheet">
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-  <!-- Flexible Grid System 1.1.0 -->
-  <link href="css/flexible.min.css" rel="stylesheet">
+    <!-- site info -->
+    <title>OR Boilerplate</title>
+    <meta name="description" content="Simple Boilerplate.">
+    <meta name="keywords" content="simple, boilerplate">
 
-  <!-- Font Awesome 4.1.0 -->
-  <link href="css/font-awesome.min.css" rel="stylesheet"> <!-- and ../fonts folder -->
+    <script>
 
-  <!-- Animate.css 3.2.0 -->
-  <link href="css/animate.min.css" rel="stylesheet">
+      /*
+        check if javascript is active &
+        add user agent info to data
+      */
 
-  <!-- Flat UI Colors (http://flatuicolors.com) -->
+      var
+        html = document.getElementsByTagName('html')[0];
 
-  <!-- Google Font -->
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+      html.className = html.className.replace('no-js', 'js');
 
-  <!-- Main.css -->
-  <link href="css/main.css" rel="stylesheet">
+      html.setAttribute('data-user-agent', navigator.userAgent);
 
-</head>
-<body>
+    </script>
 
-  <!-- Your Code -->
+    <!-- styles -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- jQuery 1.11.1 -->
-  <script src="js/jquery-1.11.1.min.js"></script>
+  </head>
 
-  <!-- Main.js -->
-  <script src="js/main.js"></script>
+  <body>
 
-</body>
+    <div class="app">
+
+      app
+
+    </div> <!-- /app -->
+
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+
 </html>
