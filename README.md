@@ -1,8 +1,7 @@
 or-boilerplate
 ==============
 
-# About
 Simple boilerplate for private projects.
 
-# Dependencies
+## Dependencies
 [Koala APP](http://koala-app.com/)
